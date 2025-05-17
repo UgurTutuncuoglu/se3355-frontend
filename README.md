@@ -37,7 +37,7 @@ Push the built files to the gh-pages branch
 
 GitHub Pages will serve from that branch
 
-Uğur Tütüncüoğlu - 20070006012
+## Uğur Tütüncüoğlu - 20070006012
 
 ## 🔧 Tech Stack
 
@@ -46,3 +46,14 @@ Uğur Tütüncüoğlu - 20070006012
 - SQLite (or in-memory objects)
 - Deployed on Render.com
 - React
+
+
+⚠️ Notes on Free Hosting (Render.com)
+This backend is hosted on Render.com using the free tier, which has the following important behaviors:
+
+🔄 Auto-Sleep & Cold Start
+Render automatically puts free services to sleep after 15 minutes of inactivity to save resources.
+
+When the service is accessed again ( via the frontend or direct API call), it may take a few seconds or minutes to "wake up."
+
+During this wake-up period, you might see a temporary 502 Bad Gateway error — this is expected and will usually resolve itself shortly.
