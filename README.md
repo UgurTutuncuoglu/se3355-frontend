@@ -43,9 +43,9 @@ GitHub Pages will serve from that branch
 
 - Node.js
 - Express.js
-- SQLite (or in-memory objects)
+- SQLite 
 - Deployed on Render.com
-- React
+- React with VITE
 
 
 ⚠️ Notes on Free Hosting (Render.com)
