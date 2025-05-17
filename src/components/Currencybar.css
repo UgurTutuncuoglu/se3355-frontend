@@ -1,0 +1,14 @@
+.currency-bar {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.currency-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.currency {
+  font-weight: 500;
+}
